@@ -1,0 +1,44 @@
+2025-04-16 17:40:21,620 - INFO - DataProcessing Intialized
+2025-04-16 17:40:40,903 - INFO - Data loaded sucesfully for Data Processing
+2025-04-16 17:41:02,647 - INFO - Filtered users sucesfully...
+2025-04-16 17:41:25,075 - INFO - Scalind done for Processing 
+2025-04-16 17:41:30,011 - INFO - Encoding done for Users and Anime
+2025-04-16 17:42:23,030 - INFO - Data splitted sucesfullyy
+2025-04-16 17:42:23,346 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-04-16 17:42:23,617 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-04-16 17:42:23,674 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-04-16 17:42:23,728 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-04-16 17:44:21,740 - INFO - ALl the training testing data as well as rating_df is saved now..
+2025-04-16 17:44:28,853 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-04-16 17:44:28,858 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2025-04-16 18:12:39,012 - INFO - Model Training & COMET ML initialized..
+2025-04-16 18:12:41,685 - INFO - Data loaded sucesfully for Model Trainig
+2025-04-16 18:12:41,864 - INFO - Succesfully read the YAML file
+2025-04-16 18:12:41,865 - INFO - Loaded configuration from config.yaml
+2025-04-16 18:12:42,063 - INFO - Model created sucesfully....
+2025-04-16 20:40:48,845 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /clientlib/batch/logger/experiment/parameter
+2025-04-16 20:40:50,849 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /clientlib/rest/v2/write/experiment/output
+2025-04-16 21:56:39,725 - INFO - Model training Completedd.....
+2025-04-16 21:56:39,800 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-16 21:56:40,261 - INFO - Model saved to artifacts/model\model.h5
+2025-04-16 21:56:40,338 - INFO - Extracting weights for user_embedding
+2025-04-16 21:56:40,364 - INFO - Extracting weights for anime_embedding
+2025-04-16 21:56:40,713 - INFO - User and Anime weights saved sucesfully....
+2025-04-16 22:23:57,168 - INFO - DataProcessing Intialized
+2025-04-16 22:24:23,506 - INFO - Data loaded sucesfully for Data Processing
+2025-04-16 22:24:29,818 - INFO - Filtered users sucesfully...
+2025-04-16 22:25:12,220 - INFO - Scalind done for Processing 
+2025-04-16 22:25:20,383 - INFO - Encoding done for Users and Anime
+2025-04-16 22:26:36,197 - INFO - Data splitted sucesfullyy
+2025-04-16 22:26:36,832 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-04-16 22:26:37,290 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-04-16 22:26:37,381 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-04-16 22:26:37,464 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-04-16 22:30:19,650 - INFO - ALl the training testing data as well as rating_df is saved now..
+2025-04-16 22:30:26,384 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-04-16 22:30:26,391 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2025-04-16 22:30:36,559 - INFO - Model Training & COMET ML initialized..
+2025-04-16 22:30:40,401 - INFO - Data loaded sucesfully for Model Trainig
+2025-04-16 22:30:40,576 - INFO - Succesfully read the YAML file
+2025-04-16 22:30:40,576 - INFO - Loaded configuration from config.yaml
+2025-04-16 22:30:41,151 - INFO - Model created sucesfully....
