@@ -31,7 +31,7 @@ class DataProcessor:
     
     def load_data(self,usecols):
         try:
-            self.rating_df = pd.read_csv(self.input_file , low_memory=True,usecols=usecols, nrows==5000000)
+            self.rating_df = pd.read_csv(self.input_file , low_memory=True,usecols=usecols, nrows=5000000)
             logger.info("Data loaded sucesfully for Data Processing")
         except Exception as e:
             raise CustomException("Failed to load data",sys)
