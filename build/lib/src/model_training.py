@@ -15,9 +15,9 @@ class ModelTraining:
         self.data_path= data_path
 
         self.experiment = comet_ml.Experiment(
-            api_key="uqgrnGhGvBA0zC3HfdmGf2WN9",
-            project_name="mlops-course-2",
-            workspace="data-guru0"
+            api_key="FMfiBAaDWQWfhNUA1zsCyWWEp",
+            project_name="MlOps-Project-1",
+            workspace="kirankatamneni"
         )
         logger.info("Model Training & COMET ML initialized..")
     
